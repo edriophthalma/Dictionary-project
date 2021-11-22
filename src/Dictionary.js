@@ -8,7 +8,7 @@ export default function Dictionary() {
     const [word, searchWord] = useState("");
     const [definition, getDefinition] = useState({});
 function wordSearch(response) {
-    console.log(response.data[0]);
+  
     getDefinition(response.data[0].meanings[0].definitions[0].definition);
 
 
