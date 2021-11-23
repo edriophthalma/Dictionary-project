@@ -10,5 +10,6 @@ if (props.definition) {
 {props.definition.meanings.map(function(meaning, index) {
     return <div key={index}><Meaning meaning={meaning}/></div>;
 })}
+<h4>Origin: {props.definition.origin}</h4>
 </div>);
 } else { return null;}}
