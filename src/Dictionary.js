@@ -30,12 +30,12 @@ function getWord(event) {
 
 
     return (<div className="mainpage">
-        <section>
+        
         <form onSubmit={handleSubmit}>
         
         <input type="Search" onChange={getWord} className="Button" placeholder="Type a word" defaultValue={props.defaultKeyword}></input>
         </form>
-        </section>
+        
         <DictionaryResults definition={definition}/>
     </div>);
 }

@@ -5,7 +5,7 @@
 .Button {
   width: 99%;
   float: left;
-  margin-left: 6px;
+
   height: 35px;
   margin-top: 5px;
   background-color: transparent;
@@ -16,6 +16,7 @@
   border-color: #f4f7f8;
   -webkit-transition: 1s; /* Safari */
   transition: 1s;
+  margin-bottom: 30px;
 }
 
 .Button:hover {
@@ -24,4 +25,8 @@
 .Button:focus {
   box-shadow: 0 0pt 2pt 2pt #f4f7f8;
   outline-width: 5px;
+}
+
+h4 {
+  text-align: left;
 }
