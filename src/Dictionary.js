@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./Dictionary";
 import DictionaryResults from "./DictionaryResults";
-
+import "./Dictionary.css";
 export default function Dictionary(props) {
 
     const [word, searchWord] = useState("");
@@ -34,7 +33,7 @@ function getWord(event) {
         <section>
         <form onSubmit={handleSubmit}>
         
-        <input type="search" onChange={getWord}></input>
+        <input type="Search" onChange={getWord} className="Button" placeholder="Type a word" defaultValue={props.defaultKeyword}></input>
         </form>
         </section>
         <DictionaryResults definition={definition}/>

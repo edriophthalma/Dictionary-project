@@ -1,3 +1,28 @@
-.mainpage section {
-  margin: 20px 0;
+.meinpage form {
+  box-shadow: 0 20px;
+}
+
+.Button {
+  width: 99%;
+  float: left;
+  margin-left: 6px;
+  height: 35px;
+  margin-top: 5px;
+  background-color: transparent;
+  text-align: left;
+  text-indent: 5px;
+  font-size: 12.6pt;
+  border-radius: 18px;
+  border-color: #f4f7f8;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+}
+
+.Button:hover {
+  border-inline-color: red;
+}
+.Button:focus {
+  box-shadow: 0 0pt 2pt 2pt #f4f7f8;
+  outline-width: 5px;
+  border-inline-color: red;
 }

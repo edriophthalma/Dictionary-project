@@ -1,8 +1,6 @@
 import logo from './logo.jpg';
-
-import './App.css';
 import Dictionary from "./Dictionary";
-
+import "./App.css";
 export default function App() {
   return (
     <div className="App">
@@ -10,9 +8,7 @@ export default function App() {
       <header className="App-header">
         <h1>A Dictionary by Giulia D'Angelo</h1>
         <img src={logo} className="App-logo img-fluid" alt="logo" />
-       
       </header>
-     
         <Dictionary />
     
       <footer>
