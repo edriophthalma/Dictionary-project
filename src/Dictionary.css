@@ -24,5 +24,4 @@
 .Button:focus {
   box-shadow: 0 0pt 2pt 2pt #f4f7f8;
   outline-width: 5px;
-  border-inline-color: red;
 }
