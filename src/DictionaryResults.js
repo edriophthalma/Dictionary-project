@@ -20,6 +20,6 @@ if (props.definition) {
     return <div key={index}><Meaning meaning={meaning}/></div>;
 })}
 <section>
-<h4>Origin: {props.definition.origin}</h4></section>
+<p>Origin: {props.definition.origin}</p></section>
 </div>);
 } else { return null;}}

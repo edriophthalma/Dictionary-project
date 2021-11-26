@@ -1,0 +1,12 @@
+h2 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20pt;
+  margin-top: 5%;
+  margin-left: 3%;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 15pt;
+}
