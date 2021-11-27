@@ -6,13 +6,14 @@ export default function(props)  {
        
     return (
         <div className="photos">
-            <section>
+            <section><div className="row">
                 {props.photos.map(function(photo, index) {
                     return (
-                        <div className="col-3">
-                        <img src={photo.src.tiny} key={index} /> 
-                        </div>                   )
-                })}
+                        
+                        <div className="col-lg-4 d-flex justify-content-center">
+                        <img src={photo.src.tiny} key={index} className="img-flex" /> 
+                          </div>                )
+                })} </div>
             </section>
 
         </div>);
