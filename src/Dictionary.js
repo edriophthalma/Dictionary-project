@@ -8,6 +8,8 @@ export default function Dictionary(props) {
     const [word, searchWord] = useState("");
     const [definition, getDefinition] = useState(null);
     const [photo, getPhoto] = useState(null);
+    const [loaded, putLoaded] = useState(false);
+
 function wordSearch(response) {
  
     getDefinition(response.data[0]);
@@ -41,15 +43,24 @@ function getWord(event) {
 
 }
 
+function load() {
+    putLoaded(true);
+search();
+}
 
+if (loaded) {
     return (<div className="mainpage">
       
         <form onSubmit={handleSubmit}>
         
-        <input type="Search" onChange={getWord} className="Button" placeholder="Type a word" defaultValue={props.defaultKeyword}></input>
+        <input type="Search" onChange={getWord} className="Button" placeholder="Type a word" defaultValue={props.defaultWord}></input>
         </form>
         
         <DictionaryResults definition={definition}/>
         <Photos photos={photo}/>
     </div>);
+} else {
+    load();
+    return "...";
+}
 }

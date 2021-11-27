@@ -10,7 +10,7 @@ export default function App() {
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
           
-          <Dictionary />
+          <Dictionary defaultWord="Whale" />
     
       <footer>
         <a href="/" src="https://github.com/edriophthalma/Dictionary-project.git">Open source code</a> by Giulia D'Angelo, hosted on <a href="/" src="https://keen-wing-5bfc5b.netlify.app">Netlify</a>
