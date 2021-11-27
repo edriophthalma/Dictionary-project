@@ -19,7 +19,10 @@ if (props.definition) {
 {props.definition.meanings.map(function(meaning, index) {
     return <div key={index}><Meaning meaning={meaning}/></div>;
 })}
+
+ 
 <section>
-<p>Origin: {props.definition.origin}</p></section>
+  
+<p><strong>Origin:</strong> {props.definition.origin}</p></section>
 </div>);
 } else { return null;}}

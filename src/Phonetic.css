@@ -1,0 +1,7 @@
+.listen a {
+  color: black;
+}
+
+a:hover {
+  color: #c4c4c4;
+}
