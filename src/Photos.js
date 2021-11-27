@@ -1,7 +1,7 @@
 import React from "react";
 import "./Photos.css";
 
-export default function(props)  {
+export default function Photos(props)  {
     if (props.photos) {
        
     return (
@@ -11,7 +11,7 @@ export default function(props)  {
                     return (
                         
                         <div className="col-lg-4 d-flex justify-content-center">
-                        <img src={photo.src.tiny} key={index} className="img-flex" /> 
+                        <img src={photo.src.tiny} key={index} className="img-flex" alt="visual examples" /> 
                           </div>                )
                 })} </div>
             </section>
