@@ -9,7 +9,8 @@ export default function App() {
         <h1>A Dictionary by Giulia D'Angelo</h1>
         <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
-        <Dictionary />
+          
+          <Dictionary />
     
       <footer>
         <a href="/" src="https://github.com/edriophthalma/Dictionary-project.git">Open source code</a> by Giulia D'Angelo, hosted on <a href="/" src="https://keen-wing-5bfc5b.netlify.app">Netlify</a>

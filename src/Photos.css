@@ -1,4 +1,8 @@
-.Results section {
+img {
+  border-radius: 5px;
+  padding: 35px;
+}
+section {
   background-color: #e8e8e8;
   text-align: left;
   padding: 3%;
@@ -6,8 +10,4 @@
   margin-top: 30px;
   box-shadow: rgba(50, 50, 93, 0.13) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.075) 0px 1px 3px -1px;
-}
-
-h4 {
-  text-transform: capitalize;
 }

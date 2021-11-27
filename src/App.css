@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   background-color: #d7dcde;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -15,5 +17,6 @@
   justify-content: center;
 }
 footer {
-  margin-top: 400px;
+  margin-top: 600px;
+  padding-bottom: 40px;
 }
