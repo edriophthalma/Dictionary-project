@@ -5,7 +5,7 @@ import Photos from "./Photos";
 import "./Dictionary.css";
 export default function Dictionary(props) {
 
-    const [word, searchWord] = useState("");
+    const [word, searchWord] = useState(props.defaultWord);
     const [definition, getDefinition] = useState(null);
     const [photo, getPhoto] = useState(null);
     const [loaded, putLoaded] = useState(false);
