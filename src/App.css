@@ -6,8 +6,12 @@
 }
 
 .App-logo {
-  height: 30px;
+  height: 100px;
+  max-width: 140px;
   margin-top: 2px;
+  display: block;
+  margin: 2px auto;
+  border-radius: 20px;
 }
 .App-header {
   min-height: 22vh;
@@ -19,4 +23,10 @@
 footer {
   margin-top: 600px;
   padding-bottom: 40px;
+}
+h1 {
+  font-size: 25px;
+  padding-top: 8%;
+  font-weight: 600;
+  padding-left: 6%;
 }

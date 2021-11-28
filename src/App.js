@@ -6,9 +6,12 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-        <h1>A Dictionary by Giulia D'Angelo</h1>
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
-      </header>
+        <div className="row">
+          <div className="col-sm-6">
+        <h1>A Dictionary by Giulia D'Angelo</h1></div>
+       <div className="col-sm-6"> <img src={logo} className="App-logo img-fluid" alt="logo" /></div>
+    </div>
+    </header>
           
           <Dictionary defaultWord="Whale" />
     
